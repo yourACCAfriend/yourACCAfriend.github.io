@@ -1,0 +1,12 @@
+[
+  {
+    "question": "What is the formula for contribution?",
+    "options": ["Sales – Variable Cost", "Profit – Fixed Cost", "Sales – Fixed Cost", "Sales – Profit"],
+    "answer": "Sales – Variable Cost"
+  },
+  {
+    "question": "Which costing method uses absorption of overheads?",
+    "options": ["Marginal Costing", "Absorption Costing", "Variable Costing", "Throughput Costing"],
+    "answer": "Absorption Costing"
+  }
+]
