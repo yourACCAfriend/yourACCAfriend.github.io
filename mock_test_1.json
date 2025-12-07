@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following can be categorised as aspects of centralisation or decentralisation of an office function?",
+    "options": [
+      "Centralisation: 1 and 4; Decentralisation: 2 and 3",
+      "Centralisation: 4; Decentralisation: 1, 2 and 3",
+      "Centralisation: 2 and 3; Decentralisation: 1 and 4",
+      "Centralisation: 1, 3 and 4; Decentralisation: 2"
+    ],
+    "correct": 3,
+    "explanation": "Specialised staff, economies of scale and standardisation are aspects of centralisation; duplication of activities is decentralisation.",
+    "marks": 2
+  },
+  {
+    "id": 2,
+    "question": "In a large organisation, which of the following personnel would MOST likely be responsible for following up overdue payments from customers?",
+    "options": [
+      "Trainee accountant",
+      "Credit controller",
+      "Management accountant",
+      "Purchasing manager"
+    ],
+    "correct": 1,
+    "explanation": "Credit control involves managing customer accounts and following up outstanding amounts.",
+    "marks": 2
+  },
+  {
+    "id": 3,
+    "question": "Which of the following would be the correct entry for the issue of direct material?",
+    "options": [
+      "Dr Production overhead / Cr Material control",
+      "Dr Material control / Cr Work-in-progress",
+      "Dr Work-in-progress / Cr Material control",
+      "Dr Material control / Cr Production overhead"
+    ],
+    "correct": 2,
+    "explanation": "The issue of direct materials is debited to Work-in-progress and credited to Materials control.",
+    "marks": 2
+  },
+  {
+    "id": 4,
+    "question": "In relation to real time processing in a computer data processing environment, which statement is true?",
+    "options": [
+      "It ensures the accuracy of the input",
+      "It facilitates control over the input of data",
+      "Transactions are input and processed in batches",
+      "Up-to-date information is always available"
+    ],
+    "correct": 3,
+    "explanation": "Real-time processing means transactions are processed immediately and up-to-date information is available.",
+    "marks": 2
+  },
+  {
+    "id": 5,
+    "question": "Which of the following are features of all useful management information?",
+    "options": [
+      "1 and 2 only (Completeness and Reliability)",
+      "1 and 3 only (Completeness and Timeliness)",
+      "2 and 3 only (Reliability and Timeliness)",
+      "1, 2 and 3 (Completeness, Reliability and Timeliness)"
+    ],
+    "correct": 3,
+    "explanation": "Management information should be complete, reliable and timely (all three are required).",
+    "marks": 2
+  },
+  {
+    "id": 6,
+    "question": "Which of the following is an example of external information for an organisation?",
+    "options": [
+      "Financial reporting standards",
+      "Organisation structure",
+      "Report of cost",
+      "Accounting records"
+    ],
+    "correct": 0,
+    "explanation": "Financial reporting standards come from outside the organisation and are external information.",
+    "marks": 2
+  },
+  {
+    "id": 7,
+    "question": "Which statements about data and information are TRUE?",
+    "options": [
+      "Statement 2 only (Monthly management accounting reports are information)",
+      "Statement 1 only (Completed questionnaires are data)",
+      "Neither statement 1 nor statement 2",
+      "Both statement 1 and statement 2"
+    ],
+    "correct": 3,
+    "explanation": "Completed questionnaires are data; processed reports are information — both statements are true.",
+    "marks": 2
+  },
+  {
+    "id": 8,
+    "question": "Which of the following are classified as personal data users?",
+    "options": [
+      "1 and 3 (Int Co and Dab Co)",
+      "1 and 4 (Int Co and Jenny)",
+      "1 and 2 (Int Co and James)",
+      "2 and 3 (James and Dab Co)"
+    ],
+    "correct": 1,
+    "explanation": "A data user controls or handles personal data — Int Co (the employer) and Jenny (HR collecting applications) are data users.",
+    "marks": 2
+  },
+  {
+    "id": 9,
+    "question": "How is the amount of free inventory calculated?",
+    "options": [
+      "Inventory on order - Inventory already requisitioned for use",
+      "Inventory on hand - Inventory already requisitioned for use",
+      "Inventory on hand + Inventory on order",
+      "Inventory on hand + Inventory on order - Inventory already requisitioned for use"
+    ],
+    "correct": 3,
+    "explanation": "Free inventory = inventory on hand + inventory on order - inventory already requisitioned for use.",
+    "marks": 2
+  },
+  {
+    "id": 10,
+    "question": "Which statement relating to acquisition of materials is true?",
+    "options": [
+      "A materials requisition is completed when materials are needed from stores by the production department",
+      "The buyer prepares a delivery note to ask for goods to be supplied",
+      "A purchase order is completed by the supplier and dispatched along with the goods",
+      "An invoice is supplied by the accounts department of the buying company"
+    ],
+    "correct": 0,
+    "explanation": "A materials requisition is created by production when they need materials from stores.",
+    "marks": 2
+  },
+  {
+    "id": 11,
+    "question": "Which statements about timesheets are TRUE?",
+    "options": [
+      "Neither statement 1 nor statement 2",
+      "Both statement 1 and statement 2",
+      "Statement 2 only",
+      "Statement 1 only"
+    ],
+    "correct": 2,
+    "explanation": "Timesheets are individual records; they can be used for billing clients (statement 2 true, statement 1 false).",
+    "marks": 2
+  },
+  {
+    "id": 12,
+    "question": "Which of the following are main purposes of cost coding?",
+    "options": [
+      "2 and 3 only",
+      "1 and 2 only",
+      "3 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "correct": 1,
+    "explanation": "Cost coding provides a logical arrangement and facilitates electronic processing (1 and 2).",
+    "marks": 2
+  },
+  {
+    "id": 13,
+    "question": "Which type of coding system is represented by: 1111 Company van, white, diesel, London; 1221 ... ?",
+    "options": [
+      "Hierarchical",
+      "Mnemonic",
+      "Faceted",
+      "Sequential"
+    ],
+    "correct": 2,
+    "explanation": "Faceted coding: each digit represents a characteristic (type, colour, engine, location).",
+    "marks": 2
+  },
+  {
+    "id": 14,
+    "question": "Prime cost per unit $8.60; variable overhead $1.90 per unit; fixed overhead $39,000; output 5,600 units. What are total costs in the period?",
+    "options": [
+      "$97,800",
+      "$49,640",
+      "$58,800",
+      "$87,160"
+    ],
+    "correct": 0,
+    "explanation": "Prime cost = 8.6×5600 = 48,160; variable OH = 1.9×5600 = 10,640; total = 48,160+10,640+39,000 = 97,800.",
+    "marks": 2
+  },
+  {
+    "id": 15,
+    "question": "A company employs three chefs in its factory canteen. How would their wages be classified?",
+    "options": [
+      "Indirect labour",
+      "Direct expense",
+      "Variable production overhead",
+      "Direct labour"
+    ],
+    "correct": 0,
+    "explanation": "Canteen staff are not involved in production so their wages are indirect labour.",
+    "marks": 2
+  },
+  {
+    "id": 16,
+    "question": "A cost has been classified as stepped-fixed cost. What classification is being used?",
+    "options": [
+      "Direct / indirect costs",
+      "Controllable / uncontrollable costs",
+      "Costs by behaviour",
+      "Costs by function"
+    ],
+    "correct": 2,
+    "explanation": "Stepped-fixed is a behaviour classification (costs by behaviour).",
+    "marks": 2
+  },
+  {
+    "id": 17,
+    "question": "Sales reps are paid $2,000 salary + 1% commission. What is the cost behaviour?",
+    "options": [
+      "Stepped-fixed",
+      "Semi-variable",
+      "Variable",
+      "Fixed"
+    ],
+    "correct": 1,
+    "explanation": "Salary is fixed; commission is variable → combined = semi-variable.",
+    "marks": 2
+  },
+  {
+    "id": 18,
+    "question": "Klothr Co costs: marketing managers' salaries 5k; insurance of accounts dept 1k; purchases materials 20k; TV advertising 2k; wages of sewing machinists 30k; bank overdraft interest 1k. Which statement is correct?",
+    "options": [
+      "Finance costs are $2,000",
+      "Selling and distribution costs are $7,000",
+      "Administration costs are $3,000",
+      "Production costs are $55,000"
+    ],
+    "correct": 1,
+    "explanation": "Selling & distribution: marketing salaries (5k) + TV ad (2k) = 7k. Production costs are 20k + 30k = 50k (not 55k).",
+    "marks": 2
+  },
+  {
+    "id": 19,
+    "question": "Which of the following is NOT a cost centre?",
+    "options": [
+      "A tyre in a tyre manufacturing company",
+      "Canteen in the factory",
+      "Manager of the human resource department",
+      "A house construction project"
+    ],
+    "correct": 0,
+    "explanation": "A tyre is a cost unit (item produced), not a cost centre.",
+    "marks": 2
+  },
+  {
+    "id": 20,
+    "question": "What formula calculates the production volume ratio?",
+    "options": [
+      "Standard hours of actual output / Budgeted hours",
+      "Actual hours / Budgeted hours",
+      "Budgeted hours / Standard hours of actual output",
+      "Standard hours of actual output / Actual hours"
+    ],
+    "correct": 0,
+    "explanation": "Production volume ratio = standard hours of actual output divided by budgeted hours.",
+    "marks": 2
+  },
+  {
+    "id": 21,
+    "question": "For which of the following is residual income an appropriate performance measure?",
+    "options": [
+      "A profit centre",
+      "An investment centre",
+      "A cost centre",
+      "A cost unit"
+    ],
+    "correct": 1,
+    "explanation": "Residual income uses capital employed — suitable for investment centres.",
+    "marks": 2
+  },
+  {
+    "id": 22,
+    "question": "Paulo Co: Year1 sales 100,000 profit 4,500 cap emp 27,300; Year2 sales 140,000 profit 6,100 cap emp 34,800. Effect on profit margin and ROCE from year 1 to year 2?",
+    "options": [
+      "Net profit margin: Decreased ROCE: Decreased",
+      "Net profit margin: Increased ROCE: Decreased",
+      "Net profit margin: Increased ROCE: Increased",
+      "Net profit margin: Decreased ROCE: Increased"
+    ],
+    "correct": 3,
+    "explanation": "Profit margin decreased (4.5% to 4.36% approx). ROCE increased (16.5% to 17.5%).",
+    "marks": 2
+  },
+  {
+    "id": 23,
+    "question": "Asset turnover 3.6 times and profit margin 5.0%. What is ROCE?",
+    "options": [
+      "1.40%",
+      "18.00%",
+      "1.80%",
+      "13.90%"
+    ],
+    "correct": 1,
+    "explanation": "ROCE = asset turnover × profit margin = 3.6 × 5% = 18.0%.",
+    "marks": 2
+  },
+  {
+    "id": 24,
+    "question": "Material X purchases 100 kg = $12,500; Y purchases 75 kg = $15,000. Opening 0, Closing X 25 Y 15. Product A used 20 kg X and 15 kg Y. Product B produced from remaining. What is direct material cost of product B?",
+    "options": [
+      "$21,375",
+      "$15,875",
+      "$6,875",
+      "$22,000"
+    ],
+    "correct": 1,
+    "explanation": "Material X used for B = 55 kg × $125 = $6,875; Material Y used for B = 45 kg × $200 = $9,000; total $15,875.",
+    "marks": 2
+  },
+  {
+    "id": 25,
+    "question": "What is the double entry to record the issue of indirect production materials from stores?",
+    "options": [
+      "Dr Production overheads Cr Materials control",
+      "Dr Materials control Cr Production overheads",
+      "Dr Materials control Cr Work-in-progress",
+      "Dr Work-in-progress Cr Materials control"
+    ],
+    "correct": 0,
+    "explanation": "Indirect materials are charged to Production overheads (Dr Production overheads / Cr Materials control).",
+    "marks": 2
+  },
+  {
+    "id": 26,
+    "question": "Which statement correctly describes LIFO method of pricing issues of stores items?",
+    "options": [
+      "All items of inventory are valued at the current price",
+      "It uses the price of the newest items before older items",
+      "It is based on the average cost of the items",
+      "It uses the price of the oldest items before newer items"
+    ],
+    "correct": 1,
+    "explanation": "LIFO issues newest items first so uses the most recent prices for issues.",
+    "marks": 2
+  },
+  {
+    "id": 27,
+    "question": "Each unit of product X requires 1.2 kg material A. Plan to make 500 units. End-April inventory 200 kg, company wishes to increase this by 50% by end-May. How many kg to order for May?",
+    "options": [
+      "700 kg",
+      "500 kg",
+      "400 kg",
+      "600 kg"
+    ],
+    "correct": 0,
+    "explanation": "Requirement = 1.2×500 = 600; desired ending inventory 200×1.5=300; order = 600 + 300 - opening 200 = 700 kg.",
+    "marks": 2
+  },
+  {
+    "id": 28,
+    "question": "Differential piecework: up to100 units $3.50; 101–150 $4.00 (for extra units); over150 $4.50 (extra units). How much for 160 units?",
+    "options": [
+      "$720",
+      "$645",
+      "$595",
+      "$570"
+    ],
+    "correct": 2,
+    "explanation": "100×3.5=350; 50×4.0=200; 10×4.5=45; total = 350+200+45=595.",
+    "marks": 2
+  },
+  {
+    "id": 29,
+    "question": "Employee paid $3.60 per unit up to 100, then $4.00 per extra; guaranteed min wage $300/week. Production weeks: 95, 104, 80. Total wage for 3 weeks?",
+    "options": [
+      "$1,046.00",
+      "$1,018.00",
+      "$1,016.40",
+      "$1,006.00"
+    ],
+    "correct": 1,
+    "explanation": "Week1:95×3.6=342; Week2:100×3.6 + 4×4.0 = 360+16=376; Week3:80→guaranteed $300; Total = 342+376+300=1,018.",
+    "marks": 2
+  },
+  {
+    "id": 30,
+    "question": "Company produces 4,500 units/week at 90% efficiency; direct labour cost $9,000. What is direct labour cost per unit at 100% efficiency?",
+    "options": [
+      "$1.80",
+      "$1.82",
+      "$2.22",
+      "$2.20"
+    ],
+    "correct": 0,
+    "explanation": "At 100% output = 4,500/0.9 = 5,000 units. Cost per unit = 9,000/5,000 = $1.80.",
+    "marks": 2
+  },
+  {
+    "id": 31,
+    "question": "20 direct workers and 5 indirect workers, 38 hour basic week. During Week 6 direct paid for 810 hours, indirect for 210 hours. Basic rates: direct $12/hr, indirect $9.50/hr. What amount is charged as indirect labour cost in week six?",
+    "options": [
+      "$2,071",
+      "$1,995",
+      "$2,311",
+      "$2,235"
+    ],
+    "correct": 2,
+    "explanation": "Indirect basic = 190×9.5=1,805; indirect overtime = (210-190)×9.5×1.4 = 266; direct overtime premium = (12×1.4 -12)=4.8 × 50 overtime hours =240; total = 1,805+266+240=2,311.",
+    "marks": 2
+  },
+  {
+    "id": 32,
+    "question": "Factory policy: extra $200 in addition to basic wage if an employee manufactures >3,000 units/week. Which term best describes this policy?",
+    "options": [
+      "Differential piecework",
+      "Guaranteed weekly minimum payment",
+      "Output related pay",
+      "Shift allowance"
+    ],
+    "correct": 2,
+    "explanation": "Output related pay pays extra when output exceeds a target.",
+    "marks": 2
+  },
+  {
+    "id": 33,
+    "question": "Polishing dept: Budget overheads $240,000; actual $275,000. Machine hours budget 6,000 actual 6,250. Dept uses machine hours; what is under-absorbed overheads?",
+    "options": [
+      "$25,000",
+      "$35,000",
+      "$44,600",
+      "$29,000"
+    ],
+    "correct": 0,
+    "explanation": "Absorption rate = 240,000/6,000 = 40; absorbed = 40×6,250 = 250,000; under-absorbed = 275,000 - 250,000 = 25,000.",
+    "marks": 2
+  },
+  {
+    "id": 34,
+    "question": "Overheads in cost centre X absorbed on machine hours. Budget O/H $72,000 for 5,000 hrs. Actual O/H $74,400 and actual machine hours 4,800. What is overheads absorbed?",
+    "options": [
+      "$69,120",
+      "$71,424",
+      "$74,400",
+      "$77,500"
+    ],
+    "correct": 0,
+    "explanation": "Predetermined rate = 72,000/5,000 = 14.4; absorbed = 14.4×4,800 = 69,120.",
+    "marks": 2
+  },
+  {
+    "id": 35,
+    "question": "Which would NOT be a service cost centre in a manufacturing business?",
+    "options": [
+      "Marketing",
+      "Machining",
+      "Dispatch",
+      "Materials store"
+    ],
+    "correct": 1,
+    "explanation": "Machining is a production (operational) cost centre, not a service/support cost centre.",
+    "marks": 2
+  },
+  {
+    "id": 36,
+    "question": "Which information is needed to calculate unit cost under batch costing?",
+    "options": [
+      "2, 3, and 4 only",
+      "1, 2, 3 and 4",
+      "1 and 4 only",
+      "2 and 3 only"
+    ],
+    "correct": 3,
+    "explanation": "Unit cost = production cost / number of units in a batch — requires production cost and number in batch (2 and 3).",
+    "marks": 2
+  },
+  {
+    "id": 37,
+    "question": "Process costing: input 20,000 litres; normal loss 8%; abnormal loss 400 litres. What was good output?",
+    "options": [
+      "18,400 litres",
+      "18,800 litres",
+      "18,000 litres",
+      "19,600 litres"
+    ],
+    "correct": 2,
+    "explanation": "Normal loss = 8%×20,000 = 1,600; good output = 20,000 - 1,600 - 400 = 18,000.",
+    "marks": 2
+  },
+  {
+    "id": 38,
+    "question": "Plantit Co small pot: setup 100 per batch (50), materials $4 per pot, labour $50 per batch, overheads 10% of production costs. What is total production cost per small pot?",
+    "options": [
+      "$7.70",
+      "$7.00",
+      "$5.50",
+      "$3.10"
+    ],
+    "correct": 0,
+    "explanation": "Production costs per batch = setup 100 + materials 200 + labour 50 = 350; overheads 10% of 350 = 35; total 385/50 = 7.70.",
+    "marks": 2
+  },
+  {
+    "id": 39,
+    "question": "Which is a characteristic where job costing is applied?",
+    "options": [
+      "Each cost unit will be produced on dedicated machinery",
+      "The cost unit is continuously identifiable throughout production",
+      "Production is a continuous operation",
+      "There may be joint products from a single operation"
+    ],
+    "correct": 1,
+    "explanation": "In job costing, costs are attributed to individual jobs so the cost unit must be continuously identifiable.",
+    "marks": 2
+  },
+  {
+    "id": 40,
+    "question": "Which statement about spreadsheets is true?",
+    "options": [
+      "A spreadsheet is a useful tool for creating forecasts",
+      "The data in the spreadsheet is completely reliable",
+      "The formula within a cell is hidden so cannot be edited",
+      "The scenarios for What-If Analysis are automatically selected"
+    ],
+    "correct": 0,
+    "explanation": "Spreadsheets are useful for forecasts; they are not automatically fully reliable and formulas can be seen/edited.",
+    "marks": 2
+  },
+  {
+    "id": 41,
+    "question": "Which of the following are disadvantages of using spreadsheets?",
+    "options": [
+      "1 and 4",
+      "1, 2 and 3",
+      "3 and 4",
+      "1 and 2 only"
+    ],
+    "correct": 3,
+    "explanation": "Large spreadsheet models may contain errors and spreadsheet data may become corrupted (1 and 2).",
+    "marks": 2
+  },
+  {
+    "id": 42,
+    "question": "Helen offers 5% discount on sales > $200. Which formula correctly calculates discount for James?",
+    "options": [
+      "=IF(B2<200,0,B2*0.05)",
+      "=IF(B2<200,B2*0.5,0)",
+      "=IF(B2>200,B2*0.05,0)",
+      "=IF(B2>200,0,B2*0.05)"
+    ],
+    "correct": 2,
+    "explanation": "The correct IF formula is =IF(B2>200,B2*0.05,0) — test B2>200 then apply 5% otherwise 0.",
+    "marks": 2
+  },
+  {
+    "id": 43,
+    "question": "If an accountant deletes column B (discount rates) used by formulas in column E, what error appears in the Discounts column?",
+    "options": [
+      "#VALUE!",
+      "#DIV/0!",
+      "#NULL",
+      "#REF!"
+    ],
+    "correct": 3,
+    "explanation": "Deleting referenced cells results in #REF! error indicating an invalid cell reference.",
+    "marks": 2
+  },
+  {
+    "id": 44,
+    "question": "There is a #VALUE! error in J3. Which of the following could cause it?",
+    "options": [
+      "=I3/H4",
+      "=I3/H2",
+      "=I3/H3",
+      "=I3/I3"
+    ],
+    "correct": 1,
+    "explanation": "A #VALUE! is caused by dividing by a cell containing text; =I3/H2 could reference a text cell causing #VALUE!.",
+    "marks": 2
+  },
+  {
+    "id": 45,
+    "question": "What formula should Margo enter into C15 to calculate average sales between 20X0 and 20X9?",
+    "options": [
+      "=SUM(C4:C13)",
+      "=AVERAGE(C4:C13)",
+      "=MEAN(C4:C13)",
+      "=AVE(C4:C13)"
+    ],
+    "correct": 1,
+    "explanation": "AVERAGE is the Excel function to compute mean of a range.",
+    "marks": 2
+  },
+  {
+    "id": 46,
+    "question": "To link January A3 to December B3, what should Ryan do?",
+    "options": [
+      "Select A3 on January, type =B3 then select B3 in December",
+      "Select A3 on January, type = and then select B3 in December",
+      "Select B3 on December, type =A3 then select A3 in January",
+      "Select B3 on December, type = and then select A3 in January"
+    ],
+    "correct": 1,
+    "explanation": "To link, go to destination cell, type = and then click the source cell in other worksheet.",
+    "marks": 2
+  },
+  {
+    "id": 47,
+    "question": "What calculation will be carried out by =100+C8/(D2+40)?",
+    "options": [
+      "C8 divided by D2 then add 140",
+      "Sum of 100 and C8 divided by sum of D2 and 40",
+      "C8 divided by (D2+40) then 100 added",
+      "Sum of 100 and C8 divided by D2 then add 40"
+    ],
+    "correct": 2,
+    "explanation": "Order of operations: divide C8 by (D2+40) then add 100.",
+    "marks": 2
+  },
+  {
+    "id": 48,
+    "question": "Regarding filtering in spreadsheets: (1) A filtered range displays only rows that meet criteria; (2) Filtering reorders the rows. Which is true?",
+    "options": [
+      "Neither statement 1 nor statement 2",
+      "Both statement 1 and statement 2",
+      "Statement 2 only",
+      "Statement 1 only"
+    ],
+    "correct": 3,
+    "explanation": "Filtering hides rows that do not meet criteria but does not reorder rows (statement 1 only).",
+    "marks": 2
+  },
+  {
+    "id": 49,
+    "question": "When presenting graphs and charts which is CORRECT?",
+    "options": [
+      "Gridlines should always be used",
+      "Spreadsheets should always contain cross references",
+      "Graph or chart should always be clearly labelled",
+      "Graph or chart should always be landscape"
+    ],
+    "correct": 2,
+    "explanation": "Charts must be clearly labelled so the user understands what is being shown.",
+    "marks": 2
+  },
+  {
+    "id": 50,
+    "question": "Which correctly describes info in the chart: (extract showing sales over years)?",
+    "options": [
+      "There is a general trend for falling sales",
+      "Sales in all products increased steadily over the four years",
+      "Product B had the lowest units sold in each of the four years",
+      "Units sold in all products increased between 20X8 and 20X9"
+    ],
+    "correct": 3,
+    "explanation": "Although trends vary, all products increased between 20X8 and 20X9.",
+    "marks": 2
+  }
+]
