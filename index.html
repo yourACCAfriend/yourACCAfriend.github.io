@@ -8,126 +8,93 @@
 </head>
 <body>
   <div class="app">
+
+    <!-- SIDEBAR -->
     <aside class="sidebar">
       <div class="brand">
         <div class="logo">YA</div>
-        <div class="brand-text">
+        <div>
           <div class="brand-title">yourACCAfriend</div>
           <div class="brand-sub">Practice • Learn • Pass</div>
         </div>
       </div>
 
       <nav class="menu">
-        <button class="menu-item" data-nav="home">Home</button>
+        <button data-nav="home">Home</button>
 
-        <div class="menu-group">
-          <button class="menu-item has-children" data-toggle="accagroup">ACCA ▾</button>
-          <div class="children" id="accagroup">
-            <button class="menu-item child" data-nav="acca">ACCA Home</button>
-            <button class="menu-item child has-children" data-toggle="maGroup">MA ▸</button>
-            <div class="children" id="maGroup">
-              <button class="menu-item child2" data-nav="ma">MA Overview</button>
-              <button class="menu-item child2" data-nav="ma-mock1">Mock Test 1</button>
-            </div>
-          </div>
-        </div>
-
-        <div style="flex:1"></div>
+        <button data-nav="ma">MA Overview</button>
+        <button data-nav="ma-mock1">MA Mock Test 1</button>
 
         <div class="menu-footer">
-          <div class="small muted">No account needed — progress saved locally</div>
+          <small>No account needed — progress saved locally</small>
         </div>
       </nav>
     </aside>
 
+    <!-- MAIN -->
     <main class="content">
-      <!-- Home -->
+
+      <!-- HOME -->
       <section id="page-home" class="page">
         <h1>Welcome — yourACCAfriend</h1>
-        <p class="lead">Free ACCA practice platform. Choose a subject from the left menu to begin.</p>
-        <div class="cards">
-          <div class="card">
-            <h3>ACCA — Management Accounting (MA)</h3>
-            <p>Mock tests, practice questions, quick revisions.</p>
-            <button class="btn" data-nav="ma">Open MA</button>
-          </div>
-          <div class="card">
-            <h3>Get started</h3>
-            <p>Mock Test 1 — 50 questions (2 marks each). Instant feedback & final summary.</p>
-            <button class="btn" data-nav="ma-mock1">Start Mock Test 1</button>
-          </div>
-        </div>
+        <p>Free ACCA practice platform.</p>
+        <button class="btn" data-nav="ma">Go to MA</button>
       </section>
 
-      <!-- ACCA -->
-      <section id="page-acca" class="page hidden">
-        <h1>ACCA — Resources</h1>
-        <p class="lead">Choose subject and mock tests from the left.</p>
-        <ul>
-          <li>Management Accounting (MA)</li>
-          <li>Financial Accounting (FA) — coming soon</li>
-        </ul>
-      </section>
-
-      <!-- MA Overview -->
+      <!-- MA OVERVIEW -->
       <section id="page-ma" class="page hidden">
         <h1>Management Accounting (MA)</h1>
-        <p class="lead">Mock Test 1: practice 50 MCQs. Each question = 2 marks.</p>
-        <div class="panel">
-          <button class="btn" data-nav="ma-mock1">Start Mock Test 1</button>
-        </div>
+        <p>Mock Test 1 — 50 MCQs • 2 marks each</p>
+        <button class="btn" data-nav="ma-mock1">Start Mock Test 1</button>
       </section>
 
-      <!-- Mock Test 1 -->
+      <!-- MOCK TEST -->
       <section id="page-ma-mock1" class="page hidden">
+
         <div class="quiz-header">
-          <div>
-            <h2>MA — Mock Test 1</h2>
-            <div class="small">50 questions • Each question = <strong>2 marks</strong></div>
-          </div>
-          <div class="status">
-            <div class="small">Progress: <span id="progressText">0 / 50</span></div>
-            <div class="small">Score: <span id="liveScore">0</span> / <span id="maxScore">100</span></div>
-            <div class="small">Time: <span id="timeElapsed">00:00</span></div>
+          <h2>MA — Mock Test 1</h2>
+          <div class="stats">
+            Progress: <span id="progressText">0 / 50</span> |
+            Score: <span id="liveScore">0</span> / <span id="maxScore">100</span> |
+            Time: <span id="timeElapsed">00:00</span>
           </div>
         </div>
 
-        <div id="quizArea" class="quiz-area">
-          <!-- question box injected here -->
+        <!-- DISCLAIMER (INLINE, NOT MODAL) -->
+        <div id="disclaimerBox" class="disclaimer-box">
+          <h3>Instructions</h3>
+          <ul>
+            <li>50 MCQs, each worth <strong>2 marks</strong></li>
+            <li>Instant answer & explanation after each question</li>
+            <li>Only attempted questions appear in final summary</li>
+            <li>Progress saved in this browser</li>
+          </ul>
+          <div class="right">
+            <button id="startAccept" class="btn">Start Test</button>
+            <button id="startCancel" class="btn secondary">Cancel</button>
+          </div>
         </div>
 
-        <div class="quiz-controls">
+        <!-- QUIZ AREA -->
+        <div id="quizArea" class="hidden"></div>
+
+        <!-- CONTROLS -->
+        <div class="quiz-controls hidden" id="quizControls">
           <button id="nextBtn" class="btn" disabled>Next Question</button>
           <button id="endBtn" class="btn secondary">End Test</button>
         </div>
 
-        <div id="summaryArea" class="hidden summary-area"></div>
+        <!-- SUMMARY -->
+        <div id="summaryArea" class="hidden"></div>
+
       </section>
 
       <footer class="site-footer">
-        <div>Made with ❤️ by yourACCAfriend</div>
+        Made with ❤️ by yourACCAfriend
       </footer>
     </main>
-  </div>
-
-  <!-- Disclaimer modal (fixed) -->
-  <div id="disclaimerModal" class="hidden">
-    <div class="modal-box">
-      <h3>Mock Test 1 — Instructions</h3>
-      <ul>
-        <li>50 multiple choice questions. Each question is worth <strong>2 marks</strong>.</li>
-        <li>You will see one question at a time. After you answer you will immediately see the correct answer and an explanation.</li>
-        <li>Only the questions you attempt will appear in the final summary (with the correct option shown).</li>
-        <li>Your progress is saved in this browser (localStorage).</li>
-      </ul>
-      <div style="text-align:right">
-        <button id="startAccept" class="btn">Start test</button>
-        <button id="startCancel" class="btn secondary">Cancel</button>
-      </div>
-    </div>
   </div>
 
   <script src="app.js"></script>
 </body>
 </html>
-
